@@ -7,10 +7,10 @@
         "item": "Choice Band",
         "ability": "Static",
         "moves": {
-          "move1": "Body Slam",
-          "move2": "Double-Edge",
-          "move3": "Encore",
-          "move4": "Endeavor"
+          "move1": "Thunder",
+          "move2": "Thunderbolt",
+          "move3": "Thunder Punch",
+          "move4": "Thunder Wave"
         },
         "ivSpread": "31/31/31/31/31/31",
         "evStats": {
@@ -29,8 +29,8 @@
         "moves": {
           "move1": "Aqua Jet",
           "move2": "Aqua Tail",
-          "move3": "Blizzard",
-          "move4": "Body Slam"
+          "move3": "Hydro Pump",
+          "move4": "Scald"
         },
         "ivSpread": "31/31/31/31/31/31",
         "evStats": {
@@ -47,10 +47,10 @@
         "item": "Choice Band",
         "ability": "Blaze",
         "moves": {
-          "move1": "Acrobatics",
-          "move2": "Ancient Power",
-          "move3": "Body Slam",
-          "move4": "Brick Break"
+          "move1": "Fire Blast",
+          "move2": "Fire Fang",
+          "move3": "Fire Punch",
+          "move4": "Flame Charge"
         },
         "ivSpread": "31/31/31/31/31/31",
         "evStats": {
@@ -67,10 +67,10 @@
         "item": "Choice Band",
         "ability": "Overgrow",
         "moves": {
-          "move1": "Body Slam",
-          "move2": "Curse",
-          "move3": "Double-Edge",
-          "move4": "Energy Ball"
+          "move1": "Energy Ball",
+          "move2": "Giga Drain",
+          "move3": "Grass Knot",
+          "move4": "Leaf Storm"
         },
         "ivSpread": "31/31/31/31/31/31",
         "evStats": {
@@ -87,10 +87,10 @@
         "item": "Choice Band",
         "ability": "Damp",
         "moves": {
-          "move1": "Aqua Tail",
-          "move2": "Blizzard",
-          "move3": "Body Slam",
-          "move4": "Brick Break"
+          "move1": "Calm Mind",
+          "move2": "Future Sight",
+          "move3": "Light Screen",
+          "move4": "Psychic"
         },
         "ivSpread": "31/31/31/31/31/31",
         "evStats": {
@@ -108,9 +108,9 @@
         "ability": "Pickup",
         "moves": {
           "move1": "Body Slam",
-          "move2": "Dark Pulse",
-          "move3": "Double-Edge",
-          "move4": "Facade"
+          "move2": "Double-Edge",
+          "move3": "Facade",
+          "move4": "Fake Out"
         },
         "ivSpread": "31/31/31/31/31/31",
         "evStats": {
