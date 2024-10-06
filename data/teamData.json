@@ -3,23 +3,123 @@
     "gen": "Gen 5",
     "pokemon": [
       {
-        "name": "Lugia",
+        "name": "Pichu",
         "item": "Choice Band",
-        "ability": "Pressure",
+        "ability": "Static",
         "moves": {
-          "move1": "Aeroblast",
-          "move2": "Ancient Power",
-          "move3": "Aqua Tail",
-          "move4": "Avalanche"
+          "move1": "Body Slam",
+          "move2": "Double-Edge",
+          "move3": "Encore",
+          "move4": "Endeavor"
         },
         "ivSpread": "31/31/31/31/31/31",
         "evStats": {
-          "hp": "252",
-          "atk": "132",
-          "def": "31",
-          "spa": "31",
-          "spd": "31",
-          "spe": "31"
+          "hp": "84",
+          "atk": "84",
+          "def": "85",
+          "spa": "85",
+          "spd": "85",
+          "spe": "85"
+        }
+      },
+      {
+        "name": "Squirtle",
+        "item": "Choice Band",
+        "ability": "Torrent",
+        "moves": {
+          "move1": "Aqua Jet",
+          "move2": "Aqua Tail",
+          "move3": "Blizzard",
+          "move4": "Body Slam"
+        },
+        "ivSpread": "31/31/31/31/31/31",
+        "evStats": {
+          "hp": "84",
+          "atk": "84",
+          "def": "85",
+          "spa": "85",
+          "spd": "85",
+          "spe": "85"
+        }
+      },
+      {
+        "name": "Charmander",
+        "item": "Choice Band",
+        "ability": "Blaze",
+        "moves": {
+          "move1": "Acrobatics",
+          "move2": "Ancient Power",
+          "move3": "Body Slam",
+          "move4": "Brick Break"
+        },
+        "ivSpread": "31/31/31/31/31/31",
+        "evStats": {
+          "hp": "84",
+          "atk": "84",
+          "def": "85",
+          "spa": "85",
+          "spd": "85",
+          "spe": "85"
+        }
+      },
+      {
+        "name": "Bulbasaur",
+        "item": "Choice Band",
+        "ability": "Overgrow",
+        "moves": {
+          "move1": "Body Slam",
+          "move2": "Curse",
+          "move3": "Double-Edge",
+          "move4": "Energy Ball"
+        },
+        "ivSpread": "31/31/31/31/31/31",
+        "evStats": {
+          "hp": "84",
+          "atk": "84",
+          "def": "85",
+          "spa": "85",
+          "spd": "85",
+          "spe": "85"
+        }
+      },
+      {
+        "name": "Psyduck",
+        "item": "Choice Band",
+        "ability": "Damp",
+        "moves": {
+          "move1": "Aqua Tail",
+          "move2": "Blizzard",
+          "move3": "Body Slam",
+          "move4": "Brick Break"
+        },
+        "ivSpread": "31/31/31/31/31/31",
+        "evStats": {
+          "hp": "84",
+          "atk": "84",
+          "def": "85",
+          "spa": "85",
+          "spd": "85",
+          "spe": "85"
+        }
+      },
+      {
+        "name": "Meowth",
+        "item": "Choice Band",
+        "ability": "Pickup",
+        "moves": {
+          "move1": "Body Slam",
+          "move2": "Dark Pulse",
+          "move3": "Double-Edge",
+          "move4": "Facade"
+        },
+        "ivSpread": "31/31/31/31/31/31",
+        "evStats": {
+          "hp": "84",
+          "atk": "84",
+          "def": "85",
+          "spa": "85",
+          "spd": "85",
+          "spe": "85"
         }
       }
     ]

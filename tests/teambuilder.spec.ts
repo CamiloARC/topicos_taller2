@@ -16,23 +16,23 @@ test('Create Team', async ({ page }) => {
   const teamCreationPage = new TeamCreationPage(page)
   const pokemonDetailsPage = new PokemonDetailsPage(page)
 
-  await homePage.navigate()
-  await homePage.openTeamBuilder()
-  await teamListPage.createNewTeam()
-  await teamCreationPage.selectFormat(testData.format, testData.gen)
+  await homePage.navigate();
+  await homePage.openTeamBuilder();
+  await teamListPage.createNewTeam();
+  await teamCreationPage.selectFormat(testData.format, testData.gen);
   for (const pokemon of testData.pokemon) {
-    await teamCreationPage.addPokemon(pokemon.name)
+    await teamCreationPage.addPokemon(pokemon.name);
+    await pokemonDetailsPage.selectItem(pokemon.item);
+    await pokemonDetailsPage.selectAbility(pokemon.ability);
+    await pokemonDetailsPage.selectMoves(pokemon.moves);
+    await pokemonDetailsPage.setEVStats(pokemon.evStats);
+    await pokemonDetailsPage.setIVSpread(pokemon.ivSpread);
+    await pokemonDetailsPage.verifyTotalEVCount();
 
-    await pokemonDetailsPage.selectItem(pokemon.item)
-    await pokemonDetailsPage.selectMoves(pokemon.moves)
-    await pokemonDetailsPage.setEVStats(pokemon.evStats)
-
-    await pokemonDetailsPage.setIVSpread(pokemon.ivSpread)
-    await pokemonDetailsPage.verifyTotalEVCount()
-    await page.screenshot({ path: `screenshots/${pokemon.name}.png` })
-    await pokemonDetailsPage.goBackToTeam()
+    await page.screenshot({ path: `screenshots/${pokemon.name}.png` });
+    await pokemonDetailsPage.goBackToTeam();
   }
 
-  await page.screenshot({ path: 'team.png' })
-  await teamCreationPage.validateTeam(testData.format, testData.gen)
+  await page.screenshot({ path: 'screenshots/team.png' });
+  await teamCreationPage.validateTeam(testData.format, testData.gen);
 });
