@@ -33,7 +33,7 @@ export class TeamCreationPage {
 
     async validateTeam(format: string, gen: string) {
         await this.buttonValidate.click();
-        await expect(this.page.locator('div[class=ps-popup]')).toContainText('Your team is valid for');
+        await expect(this.page.locator('div[class=ps-popup]')).toContainText('Your team is valid for ['+gen+'] '+format);
     }
 }
 
